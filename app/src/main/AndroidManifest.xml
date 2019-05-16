@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gsb.medicaments"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".controleur.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Medicament -->
+        <activity
+            android:name=".controleur.medicament.Medicaments"
+            android:label="@string/title_activity_medicaments"
+            android:parentActivityName=".controleur.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.medicament.InfoMedicament"
+            android:label="@string/title_activity_medicament_info"
+            android:parentActivityName=".controleur.medicament.Medicaments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.medicament.EditMedicament"
+            android:label="@string/title_activity_medicament_edit"
+            android:parentActivityName=".controleur.medicament.Medicaments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.medicament.AjoutMedicament"
+            android:label="@string/title_activity_medicament_ajout"
+            android:parentActivityName=".controleur.medicament.Medicaments"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Famille -->
+        <activity
+            android:name=".controleur.famille.Familles"
+            android:label="@string/title_activity_familles"
+            android:parentActivityName=".controleur.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.famille.InfoFamille"
+            android:label="@string/title_activity_famille_info"
+            android:parentActivityName=".controleur.famille.Familles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.famille.EditFamille"
+            android:label="@string/title_activity_famille_edit"
+            android:parentActivityName=".controleur.famille.Familles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.famille.AjoutFamille"
+            android:label="@string/title_activity_famille_ajout"
+            android:parentActivityName=".controleur.famille.Familles"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Composants -->
+        <activity
+            android:name=".controleur.composant.Composants"
+            android:label="@string/title_activity_composants"
+            android:parentActivityName=".controleur.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.composant.InfoComposant"
+            android:label="@string/title_activity_composant_info"
+            android:parentActivityName=".controleur.composant.Composants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.composant.EditComposant"
+            android:label="@string/title_activity_composant_edit"
+            android:parentActivityName=".controleur.composant.Composants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controleur.composant.AjoutComposant"
+            android:label="@string/title_activity_composant_ajout"
+            android:parentActivityName=".controleur.composant.Composants"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

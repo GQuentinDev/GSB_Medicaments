@@ -1,0 +1,9 @@
+<resources>
+    <!-- App Logo Background -->
+    <color name="ic_launcher_background">#ffffff</color>
+
+    <!-- App Default -->
+    <color name="colorPrimary">#6c757d</color>
+    <color name="colorPrimaryDark">#3C3C3C</color>
+    <color name="colorAccent">#007bff</color>
+</resources>

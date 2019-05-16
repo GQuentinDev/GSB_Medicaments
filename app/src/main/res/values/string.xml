@@ -1,0 +1,112 @@
+<resources>
+    <!-- app -->
+    <string name="app_name">Médicaments</string>
+
+    <!-- title_activity -->
+    <string name="title_activity_medicaments">Médicaments</string>
+    <string name="title_activity_medicament_info">Informations</string>
+    <string name="title_activity_medicament_edit">Modifier</string>
+    <string name="title_activity_medicament_ajout">Ajouter</string>
+
+    <string name="title_activity_familles">Familles</string>
+    <string name="title_activity_famille_info">Informations</string>
+    <string name="title_activity_famille_edit">Modifier</string>
+    <string name="title_activity_famille_ajout">Ajouter</string>
+
+    <string name="title_activity_composants">Composants</string>
+    <string name="title_activity_composant_info">Informations</string>
+    <string name="title_activity_composant_edit">Modifier</string>
+    <string name="title_activity_composant_ajout">Ajouter</string>
+
+    <!-- back_confirmation -->
+    <string name="back_confirmation_home">Appuyer à nouveau sur la touche retour pour quitter l\'application</string>
+    <string name="back_confirmation_main">Appuyer à nouveau sur la touche retour pour retourner au menu</string>
+
+    <!-- toast_success -->
+    <string name="toast_success_medicament_delete">Le médicament à bien été supprimé</string>
+    <string name="toast_success_medicament_edit">Les modifications ont bien été appliquées</string>
+    <string name="toast_success_medicament_add">Le médicament à bien été ajouté</string>
+
+    <string name="toast_success_famille_delete">La famille à bien été supprimé</string>
+    <string name="toast_success_famille_edit">Les modifications ont bien été appliquées</string>
+    <string name="toast_success_famille_add">La famille à bien été ajouté</string>
+
+    <string name="toast_success_composant_delete">Le composant à bien été supprimé</string>
+    <string name="toast_success_composant_edit">Les modifications ont bien été appliquées</string>
+    <string name="toast_success_composant_add">Le composant à bien été ajouté</string>
+
+    <!-- toast_info -->
+    <string name="toast_info_edit">Les modifications n\'ont pas été appliquées</string>
+    <string name="toast_info_add">La saisie n\'a pas été enregistrée</string>
+
+    <!-- toast_error -->
+    <string name="toast_error_medicament_remove">Erreur lors de la suppression du médicament</string>
+    <string name="toast_error_medicament_edit">Erreur lors de la modification du médicament</string>
+    <string name="toast_error_medicament_add">Erreur lors de l\'ajout du médicament</string>
+    <string name="toast_error_medicament_composant_add_already_in">Le médicament contient déjà le composant</string>
+    <string name="toast_error_medicament_composant_add">Erreur lors de l\'ajout du composant</string>
+    <string name="toast_error_medicament_composant_add_nothing">Impossible, il n\'y a aucun composant dans la base de données</string>
+    <string name="toast_error_medicament_composant_remove_nothing">Impossible, il n\'y a aucun composant</string>
+    <string name="toast_error_medicament_composant_remove">Erreur lors de la suppression du composant</string>
+
+    <string name="toast_error_famille_remove">Erreur lors de la suppression de la famille</string>
+    <string name="toast_error_famille_edit">Erreur lors de la modification de la famille</string>
+    <string name="toast_error_famille_add">Erreur lors de l\'ajout de la famille</string>
+
+    <string name="toast_error_composant_remove">Erreur lors de la suppression du composant</string>
+    <string name="toast_error_composant_edit">Erreur lors de la modification du composant</string>
+    <string name="toast_error_composant_add">Erreur lors de l\'ajout du composant</string>
+
+    <!-- label -->
+    <string name="label_DepotLegal">Dépôt légal</string>
+    <string name="label_NomCommercial">Nom commercial</string>
+    <string name="label_Famille">Famille</string>
+    <string name="label_Prix">Prix</string>
+    <string name="label_Composants">Composants</string>
+    <string name="label_Effets">Effets</string>
+    <string name="label_ContreIndic">Contre-indications</string>
+    <string name="label_Code">Code</string>
+    <string name="label_Libelle">Libellé</string>
+
+    <string name="label_ListMedicament">Liste des médicaments\nCliquez sur un médicament pour en voir les détails.</string>
+    <string name="label_ListFamilles">Liste des Familles\nCliquez sur une famille pour en voir les détails.</string>
+    <string name="label_ListComposants">Liste des Composants\nCliquez sur un composant pour en voir les détails.</string>
+
+    <string name="label_medicaments">Gestion des médicaments</string>
+    <string name="label_familles">Gestion des familles</string>
+    <string name="label_composants">Gestion des composants</string>
+
+    <!-- adb_text -->
+    <string name="adb_text_medicament_remove">Voulez-vous vraiment supprimer le médicament ?</string>
+    <string name="adb_text_famille_remove">Voulez-vous vraiment supprimer la famille ?</string>
+    <string name="adb_text_composant_remove">Voulez-vous vraiment supprimer le composant ?</string>
+
+    <string name="adb_text_cancel_edit">Voulez-vous vraiment annuler les modifications ?</string>
+    <string name="adb_text_cancel_add">Voulez-vous vraiment annuler la saisie ?</string>
+    <string name="adb_text_verif">Il faut remplir le(s) champ(s) suivants :</string>
+    <string name="adb_text_composant_add">Sélectionnez le composant à ajouter</string>
+    <string name="adb_text_medicament_composant_remove">Sélectionnez le composant à supprimer</string>
+
+    <!-- adb_btn_positive -->
+    <string name="adb_btn_positive_default">OUI</string>
+    <string name="adb_btn_positive_validate">OK</string>
+    <string name="adb_btn_positive_add">Ajouter</string>
+    <string name="adb_btn_positive_remove">Supprimer</string>
+
+    <!-- adb_btn_negative -->
+    <string name="adb_btn_negative_default">NON</string>
+    <string name="adb_btn_negative_cancel">Annuler</string>
+
+    <!-- action -->
+    <string name="action_add">Ajouter</string>
+    <string name="action_remove">Supprimer</string>
+    <string name="action_edit">Modifier</string>
+    <string name="action_done">Valider</string>
+
+    <!-- button -->
+    <string name="button_add">Ajouter</string>
+    <string name="button_remove">Supprimer</string>
+    <string name="button_medicaments">Médicaments</string>
+    <string name="button_familles">Familles</string>
+    <string name="button_composants">Composants</string>
+</resources>
