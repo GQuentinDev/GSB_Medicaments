@@ -139,7 +139,7 @@ public class Familles extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 Toasty.success(getApplicationContext(), getString(R.string.toast_success_famille_add)).show();
                 // code de la nouvelle famille
-                String code = data.getStringExtra("newAddcode");
+                String code = data.getStringExtra("newAddCode");
                 // Redirection vers le layout d'information
                 Intent infoFamille = new Intent(getApplicationContext(), InfoFamille.class);
                 infoFamille.putExtra("code", code);

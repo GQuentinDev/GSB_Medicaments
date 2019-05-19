@@ -57,7 +57,7 @@ public abstract class FamilleEdition extends AppCompatActivity {
         // Champs à verifier
         String[] data = {code, libelle};
         // Nom de chaque champ
-        int[] stringsData = {R.string.label_DepotLegal, R.string.label_NomCommercial};
+        int[] stringsData = {R.string.label_Code, R.string.label_Libelle};
         // Message d'erreur
         StringBuilder message = new StringBuilder(getString(R.string.adb_text_verif));
         // Compte du nombre d'erreur
