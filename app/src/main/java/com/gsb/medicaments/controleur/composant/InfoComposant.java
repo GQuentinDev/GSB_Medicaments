@@ -132,7 +132,7 @@ public class InfoComposant extends AppCompatActivity {
         if (requestCode == 777) {
             if (resultCode == RESULT_OK) {
                 Toasty.success(getApplicationContext(), R.string.toast_success_composant_edit).show();
-                // Nouveau dépot légal
+                // code du nouveau composant
                 this.code = data.getStringExtra("newCode");
             }
             if (resultCode == RESULT_CANCELED) {

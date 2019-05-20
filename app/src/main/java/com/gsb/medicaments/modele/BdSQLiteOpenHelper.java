@@ -16,8 +16,8 @@ public class BdSQLiteOpenHelper extends SQLiteOpenHelper {
 
         // Structure
         String composant = "CREATE TABLE composant ("
-                +"CMP_CODE TEXT(4) NOT NULL,"
-                +"CMP_LIBELLE TEXT(100) DEFAULT NULL,"
+                +"CMP_CODE TEXT NOT NULL,"
+                +"CMP_LIBELLE TEXT DEFAULT NULL,"
                 +"PRIMARY KEY (CMP_CODE)"
                 +");";
 

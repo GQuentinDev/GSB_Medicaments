@@ -97,7 +97,7 @@ public abstract class MedicamentEdition extends AppCompatActivity {
                     AlertDialog.Builder adb = new AlertDialog.Builder(MedicamentEdition.this);
 
                     // Layout de référence
-                    @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.adb_compoant_add, null);
+                    @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.adb_compoant, null);
                     adb.setView(view);
 
                     // Localisation des éléments du layout
@@ -148,7 +148,7 @@ public abstract class MedicamentEdition extends AppCompatActivity {
                     AlertDialog.Builder adb = new AlertDialog.Builder(MedicamentEdition.this);
 
                     // Layout de référence
-                    @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.adb_compoant_add, null);
+                    @SuppressLint("InflateParams") View view = getLayoutInflater().inflate(R.layout.adb_compoant, null);
                     adb.setView(view);
 
                     // Localisation des éléments du layout

@@ -38,7 +38,7 @@ public class EditComposant extends ComposantEdition {
         String code = leComposant.getCode();
         String libelle = leComposant.getLibelle();
 
-        // Objet Medicament permetant les modifications avant l'insertion
+        // Objet Composant permetant les modifications avant l'insertion
         super.setEditComposant(new Composant(code, libelle));
 
         // Remplacement des éléments du layout

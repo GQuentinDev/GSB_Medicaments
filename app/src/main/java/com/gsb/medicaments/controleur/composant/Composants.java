@@ -138,7 +138,7 @@ public class Composants extends AppCompatActivity {
         if (requestCode == 55) {
             if (resultCode == RESULT_OK) {
                 Toasty.success(getApplicationContext(), getString(R.string.toast_success_composant_add)).show();
-                // code de la nouvelle famille
+                // code du nouveau composant
                 String code = data.getStringExtra("newAddCode");
                 // Redirection vers le layout d'information
                 Intent infoComposant = new Intent(getApplicationContext(), InfoComposant.class);

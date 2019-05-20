@@ -38,7 +38,7 @@ public class EditFamille extends FamilleEdition {
         String code = laFamille.getCode();
         String libelle = laFamille.getLibelle();
 
-        // Objet Medicament permetant les modifications avant l'insertion
+        // Objet Famille permetant les modifications avant l'insertion
         super.setEditFamille(new Famille(code, libelle));
 
         // Remplacement des éléments du layout
